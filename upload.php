@@ -25,16 +25,12 @@
 
 <body>
     <?php
-    $name = $_GET["name"];
-    $sender = $_GET["email"]; ?></br>
-    <?php
-    echo "Welcome $name"; ?></br>
-    <?php
-    echo "Your email address: $sender"; ?></br>
+    $name = $_POST["name"];
+    $sender = $_POST["email"]; ?></br>
     <?php echo "validating......";
     ?>
     <?php
-    $dishname = $_GET["dishname"];
+    $dishname = $_POST["dishname"];
     $error = '';
     ?></br>
     <?php
